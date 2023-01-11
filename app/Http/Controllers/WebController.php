@@ -10,14 +10,13 @@ class WebController extends Controller
 {
     private $massage;
 
-    public  function index()
+    public function index()
     {
-        return view('frontEnd.home.home',[
-            'portfolios'=> Portfolio::where('status', 1)->orderBy('id','desc')->get(),
-//            'portfolioSecond'=>Portfolio::where('status', 1)->orderBy('id','desc')->skip(1)->first(),
-//            'portfolioThird'=>Portfolio::where('status', 1)->orderBy('id','desc')->skip(2)->first(),
+        return view('frontEnd.home.home', [
+            'portfolios' => Portfolio::where('status', 1)->orderBy('id', 'desc')->get(),
         ]);
     }
+
     public function massage(Request $request)
     {
         $this->massage = new Massage();
@@ -25,6 +24,6 @@ class WebController extends Controller
         $this->massage->email = $request->email;
         $this->massage->massage = $request->massage;
         $this->massage->save();
-        return  redirect(route('home'))->with('massage','Your massage send Success');
+        return redirect(route('home'))->with('massage', 'Your massage send Success');
     }
 }

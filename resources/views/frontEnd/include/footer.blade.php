@@ -7,9 +7,9 @@
                     I am a Back-End Developer from Bangladesh.I working with PHP laravel Framework .
                 </p>
                 <ul class="list-inline footer-social">
-                    <li class="list-inline-item"><a href="https://www.facebook.com/shakhawathossain6"><i class="fab fa-facebook-f"></i></a></li>
-                    <li class="list-inline-item"><a href="https://github.com/shakhawatsabbir"><i class="fab fa-github"></i></a></li>
-                    <li class="list-inline-item"><a href="https://www.instagram.com/shakhawat.sabbir"><i class="fab fa-instagram"></i></a></li>
+                    <li class="list-inline-item"><a href="https://www.facebook.com/shakhawathossain6" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                    <li class="list-inline-item"><a href="https://github.com/shakhawatsabbir" target="_blank"><i class="fab fa-github"></i></a></li>
+                    <li class="list-inline-item"><a href="https://www.instagram.com/shakhawat.sabbir" target="_blank"><i class="fab fa-instagram"></i></a></li>
                 </ul>
             </div>
 

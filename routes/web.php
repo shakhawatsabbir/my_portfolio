@@ -1,9 +1,9 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\WebController;
-use App\Http\Controllers\DashboardController;
+use  App\Http\Controllers\WebController;
 use App\Http\Controllers\DownloadFile;
+use App\Http\Controllers\DashboardController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -14,7 +14,7 @@ use App\Http\Controllers\DownloadFile;
 | contains the "web" middleware group. Now create something great!
 |
 */
-//
+
 //Route::get('/', function () {
 //    return view('welcome');
 //});
@@ -22,8 +22,6 @@ use App\Http\Controllers\DownloadFile;
 Route::get('/',[WebController::class,'index'])->name('home');
 Route::post('/massage',[WebController::class,'massage'])->name('massage');
 Route::get('/download/cv',[DownloadFile::class,'downloadCv'])->name('download.cv');
-
-
 
 Route::middleware(['auth:sanctum', config('jetstream.auth_session'), 'verified'])->group(function () {
 //    Route::get('/dashboard', function () {return view('dashboard');})->name('dashboard');

@@ -8,7 +8,6 @@ use Illuminate\Database\Eloquent\Model;
 class Portfolio extends Model
 {
     private static $portfolio, $image, $imageNewName,$imgUrl, $drictory;
-
     use HasFactory;
 
     public static function savePortfolio($request)

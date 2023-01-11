@@ -35,9 +35,9 @@
                         <div class="link-group">
                             <a class="btn-main" href="#contact-section">Contact Me</a>
                             <ul class="hero-social list-inline">
-                                <li class="list-inline-item"><a href="https://www.facebook.com/shakhawathossain6"><i class="fab fa-facebook-f"></i></a></li>
-                                <li class="list-inline-item"><a href="https://github.com/shakhawatsabbir"><i class="fab fa-github"></i></a></li>
-                                <li class="list-inline-item"><a href="https://www.instagram.com/shakhawat.sabbir"><i class="fab fa-instagram"></i></a></li>
+                                <li class="list-inline-item"><a href="https://www.facebook.com/shakhawathossain6" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                                <li class="list-inline-item"><a href="https://github.com/shakhawatsabbir" target="_blank"><i class="fab fa-github"></i></a></li>
+                                <li class="list-inline-item"><a href="https://www.instagram.com/shakhawat.sabbir" target="_blank"><i class="fab fa-instagram"></i></a></li>
                             </ul> <!-- .hero-social -->
                         </div> <!-- .link-group -->
                     </div> <!-- .content-block -->
@@ -238,8 +238,8 @@
                         </div>
                     </div>
                     <div class="col-md-6">
-                        <div class="card border-0 mt-5">
-                            <div class="card-body mt-5">
+                        <div class="card border-0 ">
+                            <div class="card-body">
                                 <h3 class="mt-3">{{$portfolio->portfolio_title}}</h3>
                                 <p class="mt-4">{{$portfolio->portfolio_description}}</p>
                                 <a href="{{$portfolio->link}}" target="_blank" class="btn mt-5 btn-main ">Read More</a>

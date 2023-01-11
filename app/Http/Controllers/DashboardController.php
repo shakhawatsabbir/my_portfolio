@@ -6,9 +6,9 @@ use App\Models\Massage;
 use App\Models\Portfolio;
 use Illuminate\Http\Request;
 
+
 class DashboardController extends Controller
 {
-
 
     public function index()
     {
@@ -70,5 +70,4 @@ class DashboardController extends Controller
         $this->portfolio->delete();
         return back()->with('massage','Delete Success');
     }
-
 }
